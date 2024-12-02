@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 18px;
+  width: calc(8.5in - 1in);
+  height: calc(11in - 1in);
+  padding: 0.5in;
+}
+
+main {
+  width: calc(8.5in - 1in);
+  height: calc(11in - 1in);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.25in;
+}
+
+div.header-left {
+  flex: 1;
+}
+
+div.header-name {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+div.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2in 1fr;
+  border-top: 1px solid black;
+  padding-top: 0.15in;
+}
+
+div.section-left {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.section-right {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+article {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5in;
+  padding-bottom: 0.15in;
+}
+
+div.article-right {
+  text-align: right;
+  font-size: 16px;
+}
+
+ul {
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+div.section-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 0.15in;
+}
+
+div.section-education {
+  display: grid;
+  grid-template-columns: 1fr 1.6in;
+  padding-bottom: 0.15in;
+}
+
+div.section-classes {
+  padding-bottom: 0.15in;
+}
+
+i.education-date {
+  text-align: right;
+  font-size: 16px;
+}
+
+a {
+  color: blue;
+}
