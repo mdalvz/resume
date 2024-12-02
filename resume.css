@@ -93,6 +93,12 @@ div.section-education {
   padding-bottom: 0.15in;
 }
 
+div.section-education-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.6in;
+  padding-bottom: 0.05in;
+}
+
 div.section-classes {
   padding-bottom: 0.15in;
 }
